@@ -9,10 +9,10 @@
         android:theme="@style/Theme.MyApplication">
 
 
-        <activity android:name=".Login_Usuario"/>
+        <activity android:name=".Cadastro_Usuario"/>
 
         <activity
-            android:name=".Cadastro_Usuario"
+            android:name=".Login_Usuario"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
